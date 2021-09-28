@@ -2,6 +2,7 @@ package gaaynako.transpay.firstapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -23,7 +24,6 @@ public class UpdateCourseActivity extends AppCompatActivity {
     private long id;
     private Button updateCourseBtn,  deleteCourseBtn;;
     private Realm realm;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

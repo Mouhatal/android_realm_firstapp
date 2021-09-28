@@ -54,6 +54,7 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
                 i.putExtra("id", modal.getId());
                 // on below line we are starting a new activity.
                 context.startActivity(i);
+                ReadCoursesActivity.read_activity.finish();
             }
         });
     }

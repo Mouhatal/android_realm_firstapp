@@ -1,5 +1,6 @@
 package gaaynako.transpay.firstapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ public class ReadCoursesActivity extends AppCompatActivity {
     private Realm realm;
     private RecyclerView coursesRV;
     private CourseRVAdapter courseRVAdapter;
+    public static Activity read_activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
